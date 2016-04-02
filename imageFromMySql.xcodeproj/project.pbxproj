@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74A1F5C205422CC290F5BD5E /* libPods-imageFromMySql.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 981CBE232109B4120D7C60CD /* libPods-imageFromMySql.a */; };
 		94C5AE661CAF937B0040DA38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5AE651CAF937B0040DA38 /* AppDelegate.swift */; };
 		94C5AE681CAF937B0040DA38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5AE671CAF937B0040DA38 /* ViewController.swift */; };
 		94C5AE6B1CAF937B0040DA38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C5AE691CAF937B0040DA38 /* Main.storyboard */; };
 		94C5AE6D1CAF937B0040DA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C5AE6C1CAF937B0040DA38 /* Assets.xcassets */; };
 		94C5AE701CAF937B0040DA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C5AE6E1CAF937B0040DA38 /* LaunchScreen.storyboard */; };
+		94C5AE781CAF94150040DA38 /* chooseFromCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5AE771CAF94150040DA38 /* chooseFromCamera.swift */; };
+		94C5AE7A1CAFB3850040DA38 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5AE791CAFB3850040DA38 /* MyCollectionViewCell.swift */; };
+		94C5AE7D1CB009300040DA38 /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C5AE7C1CB009300040DA38 /* transparent.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		121406B096AB92DD004930EB /* Pods-imageFromMySql.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imageFromMySql.release.xcconfig"; path = "Pods/Target Support Files/Pods-imageFromMySql/Pods-imageFromMySql.release.xcconfig"; sourceTree = "<group>"; };
+		21E254DCD8F05DE1F228F2E8 /* Pods-imageFromMySql.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imageFromMySql.debug.xcconfig"; path = "Pods/Target Support Files/Pods-imageFromMySql/Pods-imageFromMySql.debug.xcconfig"; sourceTree = "<group>"; };
 		94C5AE621CAF937B0040DA38 /* imageFromMySql.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageFromMySql.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C5AE651CAF937B0040DA38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94C5AE671CAF937B0040DA38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,11 @@
 		94C5AE6C1CAF937B0040DA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94C5AE6F1CAF937B0040DA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94C5AE711CAF937B0040DA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C5AE771CAF94150040DA38 /* chooseFromCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chooseFromCamera.swift; sourceTree = "<group>"; };
+		94C5AE791CAFB3850040DA38 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		94C5AE7B1CAFB88E0040DA38 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		94C5AE7C1CB009300040DA38 /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transparent.png; path = ../../AFNetworkingTest/AFNetworkingTest/transparent.png; sourceTree = "<group>"; };
+		981CBE232109B4120D7C60CD /* libPods-imageFromMySql.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-imageFromMySql.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A1F5C205422CC290F5BD5E /* libPods-imageFromMySql.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84487CE8830A8F9DFEC38663 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21E254DCD8F05DE1F228F2E8 /* Pods-imageFromMySql.debug.xcconfig */,
+				121406B096AB92DD004930EB /* Pods-imageFromMySql.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		94C5AE591CAF937B0040DA38 = {
 			isa = PBXGroup;
 			children = (
 				94C5AE641CAF937B0040DA38 /* imageFromMySql */,
 				94C5AE631CAF937B0040DA38 /* Products */,
+				84487CE8830A8F9DFEC38663 /* Pods */,
+				C79B4460D7E90370D9ACBEC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,26 @@
 		94C5AE641CAF937B0040DA38 /* imageFromMySql */ = {
 			isa = PBXGroup;
 			children = (
+				94C5AE7C1CB009300040DA38 /* transparent.png */,
 				94C5AE651CAF937B0040DA38 /* AppDelegate.swift */,
 				94C5AE671CAF937B0040DA38 /* ViewController.swift */,
 				94C5AE691CAF937B0040DA38 /* Main.storyboard */,
 				94C5AE6C1CAF937B0040DA38 /* Assets.xcassets */,
 				94C5AE6E1CAF937B0040DA38 /* LaunchScreen.storyboard */,
 				94C5AE711CAF937B0040DA38 /* Info.plist */,
+				94C5AE771CAF94150040DA38 /* chooseFromCamera.swift */,
+				94C5AE791CAFB3850040DA38 /* MyCollectionViewCell.swift */,
+				94C5AE7B1CAFB88E0040DA38 /* Bridging-Header.h */,
 			);
 			path = imageFromMySql;
+			sourceTree = "<group>";
+		};
+		C79B4460D7E90370D9ACBEC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				981CBE232109B4120D7C60CD /* libPods-imageFromMySql.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94C5AE741CAF937B0040DA38 /* Build configuration list for PBXNativeTarget "imageFromMySql" */;
 			buildPhases = (
+				4ED0DDA3BD09879CD6D53A8D /* Check Pods Manifest.lock */,
 				94C5AE5E1CAF937B0040DA38 /* Sources */,
 				94C5AE5F1CAF937B0040DA38 /* Frameworks */,
 				94C5AE601CAF937B0040DA38 /* Resources */,
+				63B3D868E3064359D8743531 /* Embed Pods Frameworks */,
+				FB5B46367B3BEFD85D6C2EB5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C5AE7D1CB009300040DA38 /* transparent.png in Resources */,
 				94C5AE701CAF937B0040DA38 /* LaunchScreen.storyboard in Resources */,
 				94C5AE6D1CAF937B0040DA38 /* Assets.xcassets in Resources */,
 				94C5AE6B1CAF937B0040DA38 /* Main.storyboard in Resources */,
@@ -130,12 +169,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4ED0DDA3BD09879CD6D53A8D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63B3D868E3064359D8743531 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imageFromMySql/Pods-imageFromMySql-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5B46367B3BEFD85D6C2EB5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imageFromMySql/Pods-imageFromMySql-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94C5AE5E1CAF937B0040DA38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				94C5AE681CAF937B0040DA38 /* ViewController.swift in Sources */,
+				94C5AE781CAF94150040DA38 /* chooseFromCamera.swift in Sources */,
+				94C5AE7A1CAFB3850040DA38 /* MyCollectionViewCell.swift in Sources */,
 				94C5AE661CAF937B0040DA38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,23 +336,27 @@
 		};
 		94C5AE751CAF937B0040DA38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E254DCD8F05DE1F228F2E8 /* Pods-imageFromMySql.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = imageFromMySql/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oshige.imageFromMySql;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "imageFromMySql/Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		94C5AE761CAF937B0040DA38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121406B096AB92DD004930EB /* Pods-imageFromMySql.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = imageFromMySql/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oshige.imageFromMySql;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "imageFromMySql/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +379,7 @@
 				94C5AE761CAF937B0040DA38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
